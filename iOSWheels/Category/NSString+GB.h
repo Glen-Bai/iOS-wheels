@@ -2,7 +2,7 @@
 //  NSString+GB.h
 //  iOSWheels
 //
-//  Created by autohome on 2020/9/17.
+//  Created by baigang on 2020/9/17.
 //  Copyright © 2020 baigang. All rights reserved.
 //
 

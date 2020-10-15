@@ -2,7 +2,7 @@
 //  ViewController.m
 //  iOSWheels
 //
-//  Created by autohome on 2020/9/17.
+//  Created by baigang on 2020/9/17.
 //  Copyright © 2020 baigang. All rights reserved.
 //
 
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSNumber *hah = @1;
+    NSLog(@"%d",[hah compare:@200] == NSOrderedSame);
+    NSLog(@"按时到");
 }
 
 
