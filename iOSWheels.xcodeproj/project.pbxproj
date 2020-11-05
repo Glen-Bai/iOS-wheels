@@ -17,6 +17,8 @@
 		C34FE7FC251341B30065713D /* NSString+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C34FE7FB251341B30065713D /* NSString+GB.m */; };
 		C3A221602537F77F00D7BC9C /* NSNumber+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2215F2537F77F00D7BC9C /* NSNumber+GB.m */; };
 		C3A221632537F78D00D7BC9C /* NSObject+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A221622537F78D00D7BC9C /* NSObject+GB.m */; };
+		C3D1B5AF2553DA450021762F /* GBProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D1B5AE2553DA450021762F /* GBProxy.m */; };
+		C3D1B5B62553E25C0021762F /* UIColor+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D1B5B52553E25C0021762F /* UIColor+GB.m */; };
 		C67077F94F73E44277BB5EFC /* Pods_iOSWheels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2856AE98BFE5DAF11C8F932 /* Pods_iOSWheels.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,13 @@
 		C3A2215F2537F77F00D7BC9C /* NSNumber+GB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+GB.m"; sourceTree = "<group>"; };
 		C3A221612537F78D00D7BC9C /* NSObject+GB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+GB.h"; sourceTree = "<group>"; };
 		C3A221622537F78D00D7BC9C /* NSObject+GB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GB.m"; sourceTree = "<group>"; };
+		C3D1B5AD2553DA450021762F /* GBProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBProxy.h; sourceTree = "<group>"; };
+		C3D1B5AE2553DA450021762F /* GBProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBProxy.m; sourceTree = "<group>"; };
+		C3D1B5B12553DC380021762F /* iOSWheels.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSWheels.pch; sourceTree = "<group>"; };
+		C3D1B5B22553DF700021762F /* GBThreadMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBThreadMacro.h; sourceTree = "<group>"; };
+		C3D1B5B32553E0FB0021762F /* iWUIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWUIMacro.h; sourceTree = "<group>"; };
+		C3D1B5B42553E25C0021762F /* UIColor+GB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+GB.h"; sourceTree = "<group>"; };
+		C3D1B5B52553E25C0021762F /* UIColor+GB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GB.m"; sourceTree = "<group>"; };
 		F2856AE98BFE5DAF11C8F932 /* Pods_iOSWheels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSWheels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +94,8 @@
 		C34FE7DF25133E6E0065713D /* iOSWheels */ = {
 			isa = PBXGroup;
 			children = (
+				C3D1B5B02553DBB50021762F /* Macro */,
+				C3D1B5AC2553D9ED0021762F /* Base */,
 				C34FE7F9251341710065713D /* Category */,
 				C34FE7E025133E6E0065713D /* AppDelegate.h */,
 				C34FE7E125133E6E0065713D /* AppDelegate.m */,
@@ -110,8 +121,29 @@
 				C34FE7FB251341B30065713D /* NSString+GB.m */,
 				C3A2215E2537F77F00D7BC9C /* NSNumber+GB.h */,
 				C3A2215F2537F77F00D7BC9C /* NSNumber+GB.m */,
+				C3D1B5B42553E25C0021762F /* UIColor+GB.h */,
+				C3D1B5B52553E25C0021762F /* UIColor+GB.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		C3D1B5AC2553D9ED0021762F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C3D1B5AD2553DA450021762F /* GBProxy.h */,
+				C3D1B5AE2553DA450021762F /* GBProxy.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C3D1B5B02553DBB50021762F /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				C3D1B5B12553DC380021762F /* iOSWheels.pch */,
+				C3D1B5B32553E0FB0021762F /* iWUIMacro.h */,
+				C3D1B5B22553DF700021762F /* GBThreadMacro.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 		D74DBCE9921748BFD1C5E4BB /* Pods */ = {
@@ -224,7 +256,9 @@
 				C34FE7FC251341B30065713D /* NSString+GB.m in Sources */,
 				C3A221632537F78D00D7BC9C /* NSObject+GB.m in Sources */,
 				C34FE7E225133E6E0065713D /* AppDelegate.m in Sources */,
+				C3D1B5B62553E25C0021762F /* UIColor+GB.m in Sources */,
 				C34FE7F325133E720065713D /* main.m in Sources */,
+				C3D1B5AF2553DA450021762F /* GBProxy.m in Sources */,
 				C34FE7E525133E6E0065713D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72S3HVP3QJ;
+				GCC_PREFIX_HEADER = iOSWheels/Macro/iOSWheels.pch;
 				INFOPLIST_FILE = iOSWheels/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -387,6 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72S3HVP3QJ;
+				GCC_PREFIX_HEADER = iOSWheels/Macro/iOSWheels.pch;
 				INFOPLIST_FILE = iOSWheels/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

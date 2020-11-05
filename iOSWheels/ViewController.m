@@ -20,6 +20,10 @@
     NSNumber *hah = @1;
     NSLog(@"%d",[hah compare:@200] == NSOrderedSame);
     NSLog(@"按时到");
+    
+    gb_dispatch_main_async_safe(^{
+        NSLog(@"gb_dispatch_main_async_safe");
+    });
 }
 
 

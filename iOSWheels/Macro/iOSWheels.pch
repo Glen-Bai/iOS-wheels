@@ -1,0 +1,29 @@
+//
+//  iOSWheels.pch
+//  iOSWheels
+//
+//  Created by autohome on 2020/11/5.
+//  Copyright © 2020 baigang. All rights reserved.
+//
+
+// PCH文件的好处，将一些公用的处理(宏，公共方法)，在编译时引入，供全局可用，不用在单独引用
+
+
+// 配置：Target --> Build Settings --> Apple Clang - Lang --> Prefix Header 路径
+// 从项目根目录算起，根目录不用标识，如果是在根目录，则 iOSWheels.pch; 本项目中则是： iOSWheels/Macro/iOSWheels.pch
+
+// 可以根据不同的编译模式(Debug/Release),配置不同的PCH文件。
+
+#ifndef iOSWheels_pch
+#define iOSWheels_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+// OC类库必须在此宏内导入
+#import "GBThreadMacro.h"
+
+#endif
+
+#endif /* iOSWheels_pch */
