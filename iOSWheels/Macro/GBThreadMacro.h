@@ -3,7 +3,7 @@
 //  iOSWheels
 //
 //  Created by autohome on 2020/11/5.
-//  Copyright © 2020 baigang. All rights reserved.
+//  Copyright © 2020 Glen. All rights reserved.
 //
 
 #ifndef GBThreadMacro_h

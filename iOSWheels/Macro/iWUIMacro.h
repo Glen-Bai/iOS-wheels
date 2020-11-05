@@ -3,7 +3,7 @@
 //  iOSWheels
 //
 //  Created by autohome on 2020/11/5.
-//  Copyright © 2020 baigang. All rights reserved.
+//  Copyright © 2020 Glen. All rights reserved.
 //
 
 // 一个项目内的页面UI风格应该是相同的，即 颜色，字体，字号，等基本固定几个值，所以，可以提出一个宏来作为专门的配置文件

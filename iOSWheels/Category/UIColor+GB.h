@@ -2,8 +2,8 @@
 //  UIColor+GB.h
 //  iOSWheels
 //
-//  Created by baigang on 2020/11/5.
-//  Copyright © 2020 baigang. All rights reserved.
+//  Created by Glen on 2020/11/5.
+//  Copyright © 2020 Glen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -2,8 +2,8 @@
 //  GBProxy.h
 //  iOSWheels
 //
-//  Created by baigang on 2020/10/26.
-//  Copyright © 2020 baigang. All rights reserved.
+//  Created by Glen on 2020/10/26.
+//  Copyright © 2020 Glen. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
