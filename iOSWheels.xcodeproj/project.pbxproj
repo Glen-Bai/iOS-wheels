@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C320B3D52574BB370021390A /* UIImage+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C320B3D42574BB370021390A /* UIImage+GB.m */; };
 		C34FE7E225133E6E0065713D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C34FE7E125133E6E0065713D /* AppDelegate.m */; };
 		C34FE7E525133E6E0065713D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C34FE7E425133E6E0065713D /* SceneDelegate.m */; };
 		C34FE7E825133E6E0065713D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34FE7E725133E6E0065713D /* ViewController.m */; };
@@ -19,12 +20,15 @@
 		C3A221632537F78D00D7BC9C /* NSObject+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A221622537F78D00D7BC9C /* NSObject+GB.m */; };
 		C3D1B5AF2553DA450021762F /* GBProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D1B5AE2553DA450021762F /* GBProxy.m */; };
 		C3D1B5B62553E25C0021762F /* UIColor+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D1B5B52553E25C0021762F /* UIColor+GB.m */; };
+		C3D1B5B825551ED50021762F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3D1B5B725551ED50021762F /* README.txt */; };
 		C67077F94F73E44277BB5EFC /* Pods_iOSWheels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2856AE98BFE5DAF11C8F932 /* Pods_iOSWheels.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D95C77A6FF744BBAC70DAE0 /* Pods-iOSWheels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWheels.debug.xcconfig"; path = "Target Support Files/Pods-iOSWheels/Pods-iOSWheels.debug.xcconfig"; sourceTree = "<group>"; };
 		61611D4B2BE1C87424471BC8 /* Pods-iOSWheels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWheels.release.xcconfig"; path = "Target Support Files/Pods-iOSWheels/Pods-iOSWheels.release.xcconfig"; sourceTree = "<group>"; };
+		C320B3D32574BB370021390A /* UIImage+GB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+GB.h"; sourceTree = "<group>"; };
+		C320B3D42574BB370021390A /* UIImage+GB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GB.m"; sourceTree = "<group>"; };
 		C34FE7DD25133E6E0065713D /* iOSWheels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWheels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34FE7E025133E6E0065713D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C34FE7E125133E6E0065713D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +54,7 @@
 		C3D1B5B32553E0FB0021762F /* iWUIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWUIMacro.h; sourceTree = "<group>"; };
 		C3D1B5B42553E25C0021762F /* UIColor+GB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+GB.h"; sourceTree = "<group>"; };
 		C3D1B5B52553E25C0021762F /* UIColor+GB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GB.m"; sourceTree = "<group>"; };
+		C3D1B5B725551ED50021762F /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		F2856AE98BFE5DAF11C8F932 /* Pods_iOSWheels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSWheels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,6 +99,7 @@
 		C34FE7DF25133E6E0065713D /* iOSWheels */ = {
 			isa = PBXGroup;
 			children = (
+				C3D1B5B725551ED50021762F /* README.txt */,
 				C3D1B5B02553DBB50021762F /* Macro */,
 				C3D1B5AC2553D9ED0021762F /* Base */,
 				C34FE7F9251341710065713D /* Category */,
@@ -123,6 +129,8 @@
 				C3A2215F2537F77F00D7BC9C /* NSNumber+GB.m */,
 				C3D1B5B42553E25C0021762F /* UIColor+GB.h */,
 				C3D1B5B52553E25C0021762F /* UIColor+GB.m */,
+				C320B3D32574BB370021390A /* UIImage+GB.h */,
+				C320B3D42574BB370021390A /* UIImage+GB.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -215,6 +223,7 @@
 			files = (
 				C34FE7F025133E720065713D /* LaunchScreen.storyboard in Resources */,
 				C34FE7ED25133E720065713D /* Assets.xcassets in Resources */,
+				C3D1B5B825551ED50021762F /* README.txt in Resources */,
 				C34FE7EB25133E6E0065713D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C320B3D52574BB370021390A /* UIImage+GB.m in Sources */,
 				C3A221602537F77F00D7BC9C /* NSNumber+GB.m in Sources */,
 				C34FE7E825133E6E0065713D /* ViewController.m in Sources */,
 				C34FE7FC251341B30065713D /* NSString+GB.m in Sources */,
@@ -412,6 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.baigang.iOSWheels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -432,6 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.baigang.iOSWheels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
