@@ -19,6 +19,7 @@
 		C3A221602537F77F00D7BC9C /* NSNumber+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2215F2537F77F00D7BC9C /* NSNumber+GB.m */; };
 		C3A221632537F78D00D7BC9C /* NSObject+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A221622537F78D00D7BC9C /* NSObject+GB.m */; };
 		C3AD7A6825764C8700115110 /* UIViewController+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AD7A6725764C8700115110 /* UIViewController+GB.m */; };
+		C3B0D553257E2EC200731E5B /* UIControl+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B0D552257E2EC200731E5B /* UIControl+GB.m */; };
 		C3D1B5AF2553DA450021762F /* GBProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D1B5AE2553DA450021762F /* GBProxy.m */; };
 		C3D1B5B62553E25C0021762F /* UIColor+GB.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D1B5B52553E25C0021762F /* UIColor+GB.m */; };
 		C3D1B5B825551ED50021762F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3D1B5B725551ED50021762F /* README.txt */; };
@@ -50,6 +51,8 @@
 		C3A221622537F78D00D7BC9C /* NSObject+GB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GB.m"; sourceTree = "<group>"; };
 		C3AD7A6625764C8700115110 /* UIViewController+GB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GB.h"; sourceTree = "<group>"; };
 		C3AD7A6725764C8700115110 /* UIViewController+GB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GB.m"; sourceTree = "<group>"; };
+		C3B0D551257E2EC200731E5B /* UIControl+GB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+GB.h"; sourceTree = "<group>"; };
+		C3B0D552257E2EC200731E5B /* UIControl+GB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+GB.m"; sourceTree = "<group>"; };
 		C3D1B5AD2553DA450021762F /* GBProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBProxy.h; sourceTree = "<group>"; };
 		C3D1B5AE2553DA450021762F /* GBProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBProxy.m; sourceTree = "<group>"; };
 		C3D1B5B12553DC380021762F /* iOSWheels.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSWheels.pch; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 				C320B3D42574BB370021390A /* UIImage+GB.m */,
 				C3AD7A6625764C8700115110 /* UIViewController+GB.h */,
 				C3AD7A6725764C8700115110 /* UIViewController+GB.m */,
+				C3B0D551257E2EC200731E5B /* UIControl+GB.h */,
+				C3B0D552257E2EC200731E5B /* UIControl+GB.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				C3A221632537F78D00D7BC9C /* NSObject+GB.m in Sources */,
 				C34FE7E225133E6E0065713D /* AppDelegate.m in Sources */,
 				C3D1B5B62553E25C0021762F /* UIColor+GB.m in Sources */,
+				C3B0D553257E2EC200731E5B /* UIControl+GB.m in Sources */,
 				C34FE7F325133E720065713D /* main.m in Sources */,
 				C3D1B5AF2553DA450021762F /* GBProxy.m in Sources */,
 				C34FE7E525133E6E0065713D /* SceneDelegate.m in Sources */,
